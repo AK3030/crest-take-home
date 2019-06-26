@@ -13,6 +13,7 @@ const Main = styled.div`
   margin: 0;
   background-color: white;
   padding-bottom: 8px;
+  min-width: 375px;
 `
 
 const convertToInviteObj = json => {

@@ -65,11 +65,6 @@ const timeIntToString = (time) => {
     return newTime.toLocaleDateString() + ' ' + newTime.toLocaleTimeString()
 }
 
-const getOppositeButtonText = (current) => {
-    let result = current === 'read'? 'Mark Unread': 'Mark Read';
-    return result;
-}
-
 class Notification extends React.Component {
     constructor(props) {
         super(props);

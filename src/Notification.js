@@ -65,7 +65,7 @@ const timeIntToString = (time) => {
     return newTime.toLocaleDateString() + ' ' + newTime.toLocaleTimeString()
 }
 
-class Notification extends React.Component {
+class Notification extends React.PureComponent {
     constructor(props) {
         super(props);
 

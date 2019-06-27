@@ -67,8 +67,6 @@ class AllNots extends React.Component {
     this.setState(prevState => ({showread: !prevState.showread}))
   }
 
-
-
   render() {
     let notiArray = Object.keys(this.state.notifications).map( key => this.state.notifications[key]);
     if (this.state.showread === false) {

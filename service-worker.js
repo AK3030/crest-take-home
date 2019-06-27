@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crest-take-home/precache-manifest.9fdd3919e801913debd14a241e31c9bd.js"
+  "/crest-take-home/precache-manifest.c8c7c98430bd3606e953d44ce578cabb.js"
 );
 
 self.addEventListener('message', (event) => {
